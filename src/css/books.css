@@ -1,0 +1,70 @@
+
+/* Container for books */
+body{
+  text-align: center;
+}
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual book card */
+.book {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.book:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.book h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.book p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.book span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}

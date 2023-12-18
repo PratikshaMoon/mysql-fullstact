@@ -1,0 +1,63 @@
+/* addForm.css */
+
+body{
+    margin: 10%;
+}
+
+.add-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .add-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-form input[type='text'],
+  .add-form input[type='number'] {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+  }
+  
+  .add-form input[type='text']:focus,
+  .add-form input[type='number']:focus {
+    outline: none;
+    border-color: #007bff;
+    
+  }
+  
+  .add-form button.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .add-form button.submit-butt {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fcf804;
+    color: #fff;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .add-form button.submit-button:hover {
+    background-color: #0056b3;
+  }
+  
